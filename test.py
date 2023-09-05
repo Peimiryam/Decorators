@@ -24,6 +24,7 @@ class Manager:
                 print("Sorry, not a valid command")
                 break
             if command == 'end':
+                print("Goodbye!")
                 break
             self.commands[command](self)
         
